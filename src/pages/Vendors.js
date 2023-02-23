@@ -136,7 +136,7 @@ fetchData();
   return (
     <div className="billers">
         <h1>VENDORS</h1>
-      <form calssName="billersForm" onSubmit={handleEditFormSubmit}>
+      <form className="billersForm" onSubmit={handleEditFormSubmit}>
         <table>
           <thead>
             <tr>
